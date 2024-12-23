@@ -1,0 +1,14 @@
+npm init -y
+npm i express mongoose joi cors dotenv morgan jsonwebtoken bcrypt
+npm install --save-dev nodemon
+//package.json
+type : module
+start : node src/index.js
+dev : nodemon src/index.js
+//src folders
+mkdir  : config constants controllers middlewares models routes utils helpers validators lib
+root dir file 
+.env .gitignire .README.md
+
+create file 
+auth course todos tasks users
